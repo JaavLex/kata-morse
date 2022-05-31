@@ -75,6 +75,5 @@ else
   STDERR.puts "-manual-"
   STDERR.puts "encode: -e"
   STDERR.puts "decode: -d"
-  STDERR.puts "example: echo \"hello\" | ruby program.rb -e"
+  STDERR.puts "example: echo \"hello\" | ./decoder.rb -e | ./decoder.rb -d"
 end
-

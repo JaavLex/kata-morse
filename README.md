@@ -15,9 +15,9 @@
 
 [kata]: https://fr.wikipedia.org/wiki/Coding_dojo#Kata
 [coding dojo]: https://fr.wikipedia.org/wiki/Coding_dojo
-[EPFL]: https://www.epfl.ch
+[epfl]: https://www.epfl.ch
 [epfl-dojo-kata]: https://github.com/topics/epfl-dojo-kata
-[Pull Request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+[pull request]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 [stargazant]: https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars
 
 ## Introduction
@@ -41,17 +41,18 @@ invérsément (de code Morse vers texte).
 
 On utilisera ici le [code Morse international] qui est un standard
 ([ITU-R M.1677-1]) proposé par l'union internationale des télécommunications ou
-[ITU] est qui est disponible ici: 
+[ITU] est qui est disponible ici:
 https://www.itu.int/rec/R-REC-M.1677-1-200910-I/
 
-[code Morse international]: https://fr.wikipedia.org/wiki/Code_Morse_international
-[ITU-R M.1677-1]: https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.1677-1-200910-I!!PDF-F.pdf
-[ITU]: https://www.itu.int
+[code morse international]: https://fr.wikipedia.org/wiki/Code_Morse_international
+[itu-r m.1677-1]: https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.1677-1-200910-I!!PDF-F.pdf
+[itu]: https://www.itu.int
 
 Les caractères devant être utilsés pour le code Morse sont les suivants :
-   - Caractère unicode 'MINUS SIGN' (U+2212)
-   - Caractère unicode 'FULL STOP' (U+002E)
-   - Caractère unicode 'SPACE' (U+0020)
+
+- Caractère unicode 'MINUS SIGN' (U+2212)
+- Caractère unicode 'FULL STOP' (U+002E)
+- Caractère unicode 'SPACE' (U+0020)
 
 Les caractères francophones pouvant être utilisés sont ceux présents dans
 [ITU-R M.1677-1] (lettres, chiffres, signes de ponctuation et signes divers).
@@ -61,19 +62,20 @@ anglais du standard de l'ITU ainsi que l'image
 [Morse code tree](./resources/Morse-code-tree.svg.png) qui aide à comprendre
 comment le code morse fonctionne.
 
-
 ## Pour aller plus loin
 
 Voici quelques idées pour faire évoluer le projet :
-* Faire en sorte qu'on puisse utiliser le programme avec des pipes (`|`) ;
-* Ajuster la sortie pour qu'elle ne dépasse pas 80 colonnes ;
-* etc...
+
+- Faire en sorte qu'on puisse utiliser le programme avec des pipes (`|`) ;
+- Ajuster la sortie pour qu'elle ne dépasse pas 80 colonnes ;
+- etc...
 
 Le **[kata-braille](https://github.com/ponsfrilus/kata-braille)** est dans le
 même genre, n'hésitez pas à le faire aussi !
 
-
 ## Je l'ai fait 💪
 
-* La version de [@octocat](https://github.com/octocat) a été faite en `langage`
+- La version de [@jaavlex](https://github.com/jaavlex) a été faite en `ruby`
+  et est disponible [ici](https://github.com/JaavLex/kata-morse).
+- La version de [@octocat](https://github.com/octocat) a été faite en `langage`
   et est disponible [ici](https://#).
